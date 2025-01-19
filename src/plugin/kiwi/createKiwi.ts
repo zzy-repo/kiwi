@@ -1,7 +1,5 @@
 import type {KiwiOptions, RequestOptions, KiwiInstance} from './types.ts'
 
-// import {inject} from "vue";
-
 function createKiwi(options: KiwiOptions = {}): KiwiInstance {
     const {defaultHeaders = {}} = options
 
