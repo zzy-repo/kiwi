@@ -1,5 +1,9 @@
 import {inject} from 'vue';
 
 export function useKiwi() {
-    return inject('kiwi'); // 从依赖注入系统中获取实例
+    const kiwiInstane = inject('kiwi')
+    if (!kiwiInstane) {
+        throw new Error('useKiwi must be used within a kiwi-installed app');
+    }
+    return kiwiInstane
 }

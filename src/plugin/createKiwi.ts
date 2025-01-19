@@ -37,10 +37,6 @@ function createKiwi(options: KiwiOptions = {}): KiwiInstance {
         return response.json() as Promise<T>
     }
 
-    // function useKiwi() {
-    //     return inject('kiwi')
-    // }
-
     return {
         request
     }

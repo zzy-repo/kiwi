@@ -1,4 +1,4 @@
-// kiwi.ts
+// createKiwi.ts
 export interface KiwiOptions {
     defaultHeaders?: Record<string, string>
 }

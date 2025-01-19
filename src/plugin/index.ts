@@ -1,5 +1,5 @@
 import type {App} from 'vue'
-import createKiwi from './kiwi.ts';
+import createKiwi from './createKiwi.ts';
 
 const kiwi = {
     install(app: App) {
