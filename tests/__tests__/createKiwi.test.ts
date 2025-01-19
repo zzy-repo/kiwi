@@ -1,5 +1,5 @@
 // createKiwi.test.ts
-import createKiwi from './createKiwi';
+import createKiwi from '@/plugin/kiwi/createKiwi';
 import fetchMock from 'jest-fetch-mock';
 
 describe('createKiwi', () => {
